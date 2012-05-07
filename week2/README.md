@@ -26,6 +26,6 @@ To link a CSS file you use the link tag
 * Close the link tag
 
 	This is a link tag, linking to style.css
-
+<pre>
 	<link rel="stylesheet" type="text/css" href="style.css"></link>
-
+</pre>
