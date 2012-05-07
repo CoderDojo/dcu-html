@@ -24,5 +24,6 @@ This week we created a centralized css file, we do this so
 To link a CSS file you use the link tag
 * Use the href to link the file (Note the file name must be inside the double quotes
 * Close the link tag
-bc. <link rel="stylesheet" type="text/css" href="style.css"></link>
+
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
 
