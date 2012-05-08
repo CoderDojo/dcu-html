@@ -8,5 +8,5 @@ This week we targeted the following areas
 * Creating a html file
 * Adding a title tag
 * Adding a h1 tag
-* Adding a image
-* Doing CSS
+* Adding an image
+* Embedded CSS
