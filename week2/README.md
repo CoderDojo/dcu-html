@@ -28,4 +28,3 @@ To link a CSS file you use the link tag
 	__This is a link tag, linking to style.css__
 
 	`<link rel="stylesheet" type="text/css" href="style.css"></link>`
-
