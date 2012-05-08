@@ -14,5 +14,5 @@ The following topics were selected
 * Menus
 
 Over the duration of the course we will take these topics and show you how to 
-build a cool slick website incorpating all these.
+build a cool slick website incorporating all these.
 
