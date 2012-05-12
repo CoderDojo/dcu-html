@@ -77,10 +77,11 @@ add your centre panel create a `<div> </div>` inside you body tag.
 
 Now add the CSS to style.css file 
 
-`div.mainDiv {`
-`margin-left: auto;`
-`margin-right: auto;`
-`}`
+````css
+div.mainDiv {
+margin-left: auto;
+margin-right: auto;
+}`
 
 To upload files
 ----------------
@@ -95,7 +96,9 @@ To upload files
 Open your first website online
 -------------------------------
 Navigate to
-http://dojo.hallamor.org/eden/dcu/kingn
+
+`http://dojo.hallamor.org/eden/dcu/kingn`
+
 Replace kingn with your last name and first initial
 
 Congratulations
