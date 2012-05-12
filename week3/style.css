@@ -1,0 +1,21 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	color: gray;
+}
+
+p {
+	font-size: 12px;
+	font-family: comic sans ms;
+}
+
+div.mainDiv {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background-color: white;
+	color: black;
+}
