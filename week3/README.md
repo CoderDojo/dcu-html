@@ -81,7 +81,8 @@ Now add the CSS to style.css file
 div.mainDiv {
 margin-left: auto;
 margin-right: auto;
-}`
+}
+````
 
 To upload files
 ----------------
