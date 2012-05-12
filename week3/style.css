@@ -1,10 +1,18 @@
 body {
-	background-color: black;
+	background-color: navy;
 	color: white;
 }
 
 h1 {
 	color: gray;
+}
+
+img {
+	width: 100%;
+}
+
+div.logoDiv {
+	width: 150px;
 }
 
 p {
@@ -18,4 +26,5 @@ div.mainDiv {
 	width: 960px;
 	background-color: white;
 	color: black;
+	border: solid thin black;
 }
