@@ -47,9 +47,7 @@ can clearly see this on (www.rte.ie) the main panel is centred.  To
 add your centre panel create a `<div> </div>` inside you body tag.
 
 `<body> `
-	`<div> `
-	
-	`</div>`
+	`<div> </div>`
 `</body>`
 
 
