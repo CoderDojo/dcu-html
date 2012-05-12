@@ -8,6 +8,7 @@ This week we are targeting the following areas
 * Download __Filezilla client__ from http://filezilla-project.org/
 * Start the page again, lets see if you understand what we have done
 * Watch out with Internet Explorer (Its the worse browser for web developers)
+* Add class styles to your webpage
 * Create an center div
 * Add a small border to the center div
 * Add some padding inside this div
@@ -40,6 +41,18 @@ pain.
 `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>`
 
+Add class styles to your webpage
+---------------------------------
+We have see before how we match tag names to css styles by using the
+tag name so the `<h1> </h1>` in html mapped to `h1 {` in css for styling.
+
+Sometimes you need greater flexibility than this and want to style just
+one element.  To do this you can use a class in css.  To do this add
+the class property inside you html tag so its now
+`<div class="mainDiv"></div>`.  In the css you are now going to add a dot
+after the html tag name with the class value.  So its now
+`div.mainDiv {`
+
 Create an center div
 ---------------------
 Websites look cooler with centre panel, most website have one.  You
@@ -47,9 +60,18 @@ can clearly see this on (www.rte.ie) the main panel is centred.  To
 add your centre panel create a `<div> </div>` inside you body tag.
 
 `<body> `
-	`<div> </div>`
+	`<div class="mainDiv"></div>`
 `</body>`
 
+Now add the CSS to style.css file 
+
+`div.mainDiv {`
+
+`margin-left: auto;`
+
+`margin-right: auto;`
+
+`}`
 
 To upload files
 ----------------
