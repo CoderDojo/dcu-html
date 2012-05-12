@@ -81,8 +81,17 @@ Now add the CSS to style.css file
 div.mainDiv {
 margin-left: auto;
 margin-right: auto;
+width: 960px;
+background-color: white;
 }
 ````
+
+Your main div should now be in the centre with white background.
+
+We added the 960px here as its 960 dots on the screen, we talked
+about screen sizes and said that older screens had a standard
+of 1024 pixels/dots.  So designers usually set pages to 960 so 
+it will fit on majority of screens.  
 
 To upload files
 ----------------
