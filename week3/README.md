@@ -72,7 +72,8 @@ add your centre panel create a `<div> </div>` inside you body tag.
 	<div class="mainDiv">
 	
 	</div>
-</body>`
+</body> 
+````
 
 Now add the CSS to style.css file 
 
