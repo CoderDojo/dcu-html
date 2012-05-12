@@ -46,11 +46,11 @@ Websites look cooler with centre panel, most website have one.  You
 can clearly see this on (www.rte.ie) the main panel is centred.  To 
 add your centre panel create a `<div> </div>` inside you body tag.
 
-`<body>
-	<div>
+`<body> `
+	`<div> `
 	
-	</div>
-</body>`
+	`</div>`
+`</body>`
 
 
 To upload files
