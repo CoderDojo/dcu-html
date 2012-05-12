@@ -1,6 +1,10 @@
 Week 3 HTML Course @ CoderDojo DCU
 ===================================
 
+Date
+---------
+12 / May / 2012
+
 Aim
 ---------
 This week we are targeting the following areas
@@ -10,11 +14,6 @@ This week we are targeting the following areas
 * Watch out with Internet Explorer (Its the worse browser for web developers)
 * Add class styles to your webpage
 * Create an center div
-* Add a small border to the center div
-* Add some padding inside this div
-* Put div around image
-* Css the image and div to resize the image
-* Put border on the image and show difference between margin and padding
 * Put the new website online 
 
 Start to build your webpage again
@@ -68,18 +67,18 @@ Websites look cooler with centre panel, most website have one.  You
 can clearly see this on (www.rte.ie) the main panel is centred.  To 
 add your centre panel create a `<div> </div>` inside you body tag.
 
-`<body> `
-	`<div class="mainDiv"></div>`
-`</body>`
+````html
+<body> 
+	<div class="mainDiv">
+	
+	</div>
+</body>````
 
 Now add the CSS to style.css file 
 
 `div.mainDiv {`
-
 `margin-left: auto;`
-
 `margin-right: auto;`
-
 `}`
 
 To upload files

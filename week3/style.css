@@ -1,6 +1,6 @@
 body {
 	background-color: navy;
-	color: white;
+	color: black;
 }
 
 h1 {
@@ -25,6 +25,4 @@ div.mainDiv {
 	margin-right: auto;
 	width: 960px;
 	background-color: white;
-	color: black;
-	border: solid thin black;
 }
