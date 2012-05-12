@@ -21,6 +21,15 @@ Start to build your webpage again
 ---------------------------------
 Remember how you start your website
 
+* Go to your current folder and create a new folder
+called week 3
+* In the week 3 folder create a new file
+* index.html
+* style.css
+* Add an image you want to use
+* Now create your website, make it cool as it will
+be online later
+
 Tags
 * html
 * head
