@@ -37,20 +37,20 @@ Can you add this on top of your page above the HTML tag, this
 is not compulsory, but will help us get over some internet explorer
 pain.
 
-'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>'
+`<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>`
 
 Create an center div
 ---------------------
 Websites look cooler with centre panel, most website have one.  You
 can clearly see this on (www.rte.ie) the main panel is centred.  To 
-add your centre panel create a '<div> </div>' inside you body tag.
+add your centre panel create a `<div> </div>` inside you body tag.
 
-'<body>
+`<body>
 	<div>
 	
 	</div>
-</body>'
+</body>`
 
 
 To upload files
