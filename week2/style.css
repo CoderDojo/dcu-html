@@ -9,5 +9,9 @@ h1 {
 
 p {
 	font-size: 12px;
-	font-family: comic sans ms;
+	font-family: Georgia;
+}
+
+iframe {
+	border: 0;
 }
