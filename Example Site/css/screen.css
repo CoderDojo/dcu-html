@@ -108,3 +108,9 @@ border:1px solid #b0b0af;
   margin-left:17px;
   padding:2px;
 }
+
+#details #images ul:hover > li:hover {
+-webkit-box-shadow:inset 0 0 1px #000;
+-moz-box-shadow:inset 0 0 1px #000;
+box-shadow:inset 0 0 1px #000;
+}
