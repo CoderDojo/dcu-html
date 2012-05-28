@@ -1,0 +1,82 @@
+/******************** BASE ********************/
+body                                            { font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", "lucida grande",Arial, Helvetica, sans-serif; line-height: 1.5; background: #F2F2F2; color: #1C2A47; text-rendering:optimizeLegibility; }
+h1, h2, h3, h4, h5, h6                          { line-height: 1.2; font-weight: normal;}
+h4, h5, h6                                      { font-weight: normal; }
+b, strong, th, thead, dt, legend                { font-weight: bold; }
+caption, cite, dfn, em, i                       { font-style: italic; }
+code, kbd, samp, pre, tt, var                   { font-family: mono-space, monospace; }
+p                                               { hyphenate: auto; hyphenate-lines: 3; color: #333333; }
+p+p                                             { margin-top: 20px;}
+p+p.no-indent                                   { text-indent: 0; }
+pre                                             { white-space: pre; }
+del                                             { text-decoration: line-through; }
+mark                                            { background: rgba(255, 255, 0, 0.4); padding: 0 .25em; }
+ins                                             { color: #f00; }
+small, sup, sub                                 { font-size: 80%; }
+big                                             { font-size: 125%; line-height: 80%; }
+abbr, acronym                                   { font-size: 85%; text-transform: uppercase;}
+abbr[title], acronym[title], dfn[title]         { border-bottom: 1px dotted black; cursor: help; }
+sup, sub                                        { line-height: 0; }
+sup                                             { vertical-align: super; }
+sub                                             { vertical-align: sub; }
+blockquote                                      { padding: 1.5em; }
+hr                                              { border: none; background: #e7e7e7; width: 100%; }
+ul, ol                                          { margin-left: 1.5em; }
+ul                                              { list-style: disc outside; }
+ol                                              { list-style: decimal outside; }
+input, select, button                           { cursor: pointer; }
+table                                           { font: inherit; width: 100%; }
+th                                              { background: rgba(0, 0, 0, 0.2); }
+tr:nth-child(even)                              { background: rgba(0, 0, 0, 0.1); }
+article, aside, header, hgroup,
+nav, section, footer                            { float: left; display: block; }
+figure                                          { display: block; }
+
+.left                                     { float: left; }
+.right                                    { float: right; text-align: right; }
+header,
+section,
+div                                             { padding-bottom: 0px;}
+.clearfix										{ zoom:1; }
+.clearfix:after									{ clear:both; }
+
+.clearfix:before,.clearfix:after				{ content:""; display:table; }
+
+/******************** TYPOGRAPHY: 13/18px ********************/
+body                                            { font-size: 75%; line-height: 1.5; /*12/18*/ }
+
+h1, h2, h3, h4, h5, h6                          { position: relative; }
+h1, h2                                          { line-height: 40px; margin-bottom: 20px; }
+h1, h2, h3, h4                                  { margin-top: 10px; }
+h3, h4, h5, h6                                  { line-height: 20px; }
+h1                                              { font-size: 36px; }
+h2                                              { font-size: 28px; }
+h3                                              { font-size: 22px; }
+h4                                              { font-size: 18px; }
+h5                                              { font-size: 14px; font-weight: bold; }
+h6                                              { font-size: 13px; }
+
+p, pre, address                                 { font-size: 14px; line-height: 20px; position: relative; top: 5px; }
+abbr, code, kbd,
+samp, small, var                                { line-height: 15px; }
+ul, ol, dl, dialog                              { font-size: 14px; line-height: 20px; position: relative; top: 5px; margin-top: 20px; margin-bottom: 20px; }
+li ul, li ol                                    { top: 0; margin-top: 0; margin-bottom: 0; }
+li h1, li h2, li h3,
+li h4, li h5, li h6,
+li p                                            { top: 0; }
+form, legend, label                             { font-size: 14px; line-height: 20px; }
+legend                                          { position: relative; top: 5px; }
+input, textarea                                 { font-size: 12px; }
+
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child                                  { margin-top: 0; }
+
+table                                           { font-size: 14px; line-height: 20px; margin: 20px 0; }
+th, td                                          { padding: 3px 12px; line-height: 30px; }
+th                                              { background: rgba(0, 0, 0, 0.2); }
+tr:nth-child(even)                              { background: rgba(0, 0, 0, 0.1); }
+
+hr                                              { position: relative; height: 1px; margin: 20px 0 17px 0; }
