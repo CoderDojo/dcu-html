@@ -58,6 +58,7 @@ big
 	line-height:80%;
 }
 
+
 abbr,acronym
 {
 	font-size:85%;
@@ -87,8 +88,7 @@ ol
 
 header,section,footer
 {
-	display:block;
-	float:left;
+	display:block;	
 }
 
 .left
@@ -107,21 +107,8 @@ header,section,div
 	padding-bottom:0;
 }
 
-.clearfix
-{
-	zoom:1;
-}
-
-.clearfix:after
-{
-	clear:both;
-}
-
-.clearfix:before,.clearfix:after
-{
-	content:"";
-	display:table;
-}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.clearfix{zoom:1}
 
 h1,h2
 {
@@ -198,4 +185,10 @@ li ul,li ol
 	margin-bottom:0;
 	margin-top:0;
 	top:0;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+	border: 0;
 }

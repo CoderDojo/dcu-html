@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>CoderDojo | DCU</title>
-        <meta name="description" content="CoderDojo is a movement orientated around running free not-for-profit coding clubs and regular sessions for young people."/>
-        <meta name="keywords" content="coderdojo, html, dublin, dcu, movement, programming, websites, design, young, kids, youth, club, teaching, education, ireland, xhtml, css, ios, android, objective-c"/>
+        <meta name="description" content="CoderDojo is a movement orientated around running free not-for-profit coding clubs and regular sessions for young people.">
+        <meta name="keywords" content="coderdojo, html, dublin, dcu, movement, programming, websites, design, young, kids, youth, club, teaching, education, ireland, xhtml, css, ios, android, objective-c">
         <link type="text/css" rel="stylesheet" media="all" href="css/reset.css">
         <link type="text/css" rel="stylesheet" media="all" href="css/base.css">
         <link type="text/css" rel="stylesheet" media="all" href="css/screen.css">
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
     </head>
     <body>
         <div id="container">
@@ -40,14 +40,24 @@
                     </div>
                 </div>
             </header>
+            <div id="content">
+                <ol id="spine" class="clearfix">
+                    <li class="unit" data-side="l">
+                        <div class="unitcontainer">
+                            <p>Here is a great video on HTML made by <a href="http://google.com">Google</a></p>
+                            <div class="vidwrap">
+                                <iframe src="http://www.youtube.com/embed/60O1CJqh8IM?showinfo=0"></iframe>
+                            </div>
+                        </div>
+                        <div class="pointer"></div>
+                    </li>
+                    <li class="unit" data-side="l">
+                        <div class="unitcontainer">This is a string of text</div>
+                        <div class="pointer"></div>
+                    </li>
+                </ol>
+            </div>
             <footer></footer>
         </div>
-        <script type="text/javascript">
-    window.addEventListener('load', function(){
-        
-        helium.init();
-
-    }, false);
-</script>
     </body>
 </html>
