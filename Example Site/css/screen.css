@@ -195,3 +195,7 @@ header
 	width: 445px;
 }
 
+footer p {
+	margin: 0 auto;
+	text-align: center;
+}
