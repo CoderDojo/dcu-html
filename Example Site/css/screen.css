@@ -155,17 +155,27 @@ header
   padding: 10px
 }
 
-#content #spine .pointer {
+.unitcontainer .pointer {
  content: "";
  background-image: url(../img/leftpointer.png);
  background-repeat: no-repeat;
  left: auto;
- right: -18px;
+ right: -17px;
  position: absolute;
- top: 13px;
- width: 19px;
+ top: 30px;
+ width: 23px;
  z-index: 3;
- height: 13px;
+ height: 15px;
+}
+
+.unitcontainer:hover {
+	-moz-box-shadow:inset 0 0 1px #000;
+	-webkit-box-shadow:inset 0 0 1px #000;
+	box-shadow:inset 0 0 1px #000;
+}
+
+.unitcontainer:hover .pointer {
+	background-image: url(../img/leftpointerhover.png);
 }
 
 #content .vidwrap {
