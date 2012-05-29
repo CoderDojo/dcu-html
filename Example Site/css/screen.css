@@ -157,25 +157,36 @@ header
 
 .unitcontainer .pointer {
  content: "";
- background-image: url(../img/leftpointer.png);
  background-repeat: no-repeat;
  left: auto;
- right: -18px;
- position: absolute;
  top: 30px;
+ position: absolute;
  width: 23px;
  z-index: 3;
  height: 15px;
 }
 
+.unit[data-side="l"] .pointer {
+	 background-image: url(../img/leftpointer.png);
+	right: -18px;
+}
+
+.unit[data-side="r"] .pointer {
+	 background-image: url(../img/rightpointer.png);
+	 left: -18px;
+}
 .unitcontainer:hover {
 	-moz-box-shadow:inset 0 0 1px #000;
 	-webkit-box-shadow:inset 0 0 1px #000;
 	box-shadow:inset 0 0 1px #000;
 }
 
-.unitcontainer:hover .pointer {
+.unit[data-side="l"] > .unitcontainer:hover .pointer {
 	background-image: url(../img/leftpointerhover.png);
+}
+
+.unit[data-side="r"] > .unitcontainer:hover .pointer {
+	background-image: url(../img/rightpointerhover.png);
 }
 
 #content .vidwrap {
