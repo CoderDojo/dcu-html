@@ -1,0 +1,59 @@
+body {
+	background-color: navy;
+	color: black;
+}
+
+h1 {
+	color: gray;
+}
+
+p {
+	font-size: 12px;
+	font-family: Georgia;
+}
+
+iframe {
+	border: 0;
+}
+
+div#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background-color: white;
+	padding: 20px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div.mainImage {
+	border: 2px solid black;
+	width: 200px;
+	padding: 10px;
+	margin: 20px;
+}
+
+div.smallImage {
+	width: 50px;
+}
+
+
+img.imageStyle {
+	width: 100%;
+}
+
+div.bounce {
+	margin: 20px;	
+	border: 1px solid black;
+}	
+
+
+
+
+
+
+
