@@ -108,11 +108,13 @@ header
 	padding:2px;
 }
 
-#details ul:hover > li:hover
+#details #images ul:hover > li:hover
 {
-	-moz-box-shadow:inset 0 0 1px #000;
-	-webkit-box-shadow:inset 0 0 1px #000;
-	box-shadow:inset 0 0 1px #000;
+border:2px solid #b0b0af;
+margin-left:16px;
+margin-top: -1px;
+margin-right: -1px;
+margin-bottom: -1px;
 }
 
 #content {
@@ -161,7 +163,7 @@ header
  left: auto;
  top: 30px;
  position: absolute;
- width: 23px;
+ width: 20px;
  z-index: 3;
  height: 15px;
 }
@@ -175,10 +177,10 @@ header
 	 background-image: url(../img/rightpointer.png);
 	 left: -18px;
 }
-.unitcontainer:hover {
-	-moz-box-shadow:inset 0 0 1px #000;
-	-webkit-box-shadow:inset 0 0 1px #000;
-	box-shadow:inset 0 0 1px #000;
+
+#content #spine .unitcontainer:hover {
+border:2px solid #b0b0af;
+margin: -1px;
 }
 
 .unit[data-side="l"] > .unitcontainer:hover .pointer {
