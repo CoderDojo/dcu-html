@@ -1,4 +1,4 @@
-Week 8 HTML Course @ CoderDojo DCU
+010 Intro to Animation - HTML Course @ CoderDojo DCU
 ===================================
 
 I hope everyone enjoyed this week, this is the start of our adventure
