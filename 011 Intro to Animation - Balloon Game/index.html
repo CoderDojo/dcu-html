@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blow it up</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="animation.js"></script>
+	</head>
+	<body onload="startGame()">
+		<div id="header">
+			
+			<div id="titleDiv">
+					<h1>CoderDojo Balloon Game - Blow It Up </h1>
+			</div>
+			
+			<div id="scoreDiv">
+				<div id="scoreTitle">SCORE</div>
+				<div id="score">0</div>
+				
+				<button id="stop" onclick="stop()">STOP</button>	
+			</div>
+		</div>
+		
+		<div id="logoDiv">
+			<img src="coder.png" onclick="blow()" id ="image"/>
+		</div>
+		
+		<div id="boom">
+			BooooooooM!!
+		</div>
+		
+		<blink>
+					<h2>Blow It, Blow It, Hurry Up</h2>
+		</blink>
+		
+	</body>
+</html>

@@ -89,3 +89,6 @@ function sizeImage() {
 }
 ````
 
+Link your function to the image
+-----
+Now that you have created your first function you now need to add the 

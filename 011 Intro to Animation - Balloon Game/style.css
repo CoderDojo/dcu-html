@@ -1,0 +1,63 @@
+body {
+	background-color: lightgray;
+}
+
+img {
+	width: 100%;
+}
+
+div#titleDiv {
+	width: 80%;
+	float: left;
+}
+
+div#boom {
+	color: orange;
+	font-size: 150px;
+}
+
+h1 {
+	color: orange;
+	padding: 5px;
+	border-bottom: thin solid white;	
+}
+
+h2 {
+	color: red;
+	padding: 5px;
+	border-top: thin solid white;	
+}
+
+div#scoreDiv {
+	position: float	;
+	width: 100px;
+	padding: 20px;
+	border: thin solid white;
+	float: right;
+	background-color: navy;
+}
+
+div#scoreTitle {
+	font-size: 20px;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	color: gray;
+}
+
+
+div#score {
+	font-size: 60px;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+button#stop {
+	border: thin solid white;
+	color: lightgray;
+	padding: 10px;
+	background-color: red;
+	font-size: 30px;
+}
