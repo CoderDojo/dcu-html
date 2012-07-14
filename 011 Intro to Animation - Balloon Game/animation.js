@@ -89,6 +89,9 @@ function stop() {
 		//increase the score to 100
 		score += 100;
 		scoreDiv.innerHTML = score;
+		
+		//adding another attempt so you cant get back here
+		blownUpAttempts++;
 	} else {
 		scoreDiv.innerHTML = 0;
 		resetGame();

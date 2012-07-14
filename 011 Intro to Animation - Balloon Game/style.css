@@ -37,7 +37,7 @@ div#scoreDiv {
 	background-color: navy;
 }
 
-div#scoreTitle {
+div.resultHeader {
 	font-size: 20px;
 	width: 100%;
 	font-weight: bold;
@@ -46,7 +46,7 @@ div#scoreTitle {
 }
 
 
-div#score {
+div.resultAmount {
 	font-size: 60px;
 	width: 100%;
 	font-weight: bold;

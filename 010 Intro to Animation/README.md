@@ -83,7 +83,7 @@ A function has the following rules
 * add the open backet for your function {
 * close your function with }
 
-````function
+````javascript
 function sizeImage() {
 
 }
@@ -91,4 +91,10 @@ function sizeImage() {
 
 Link your function to the image
 -----
-Now that you have created your first function you now need to add the 
+Now that you have created your first function you now need to add the method 
+to the image using the function name.
+````html
+function sizeImage() {
+
+}
+````
