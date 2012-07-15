@@ -95,15 +95,12 @@ header {
    border: 1px solid #b0b0af;
    min-height: 480px;
    overflow: hidden;
+   position: relative;
 }
 
 #coverimage {
    border-bottom:1px solid #b0b0af;
    height: 320px;
-}
-
-#name {
-   margin-left: 20px;
 }
 
 #logo {
@@ -115,7 +112,8 @@ header {
 	border-radius:5px;
 	box-shadow:0 1px 2px #757575;
 	position: absolute;
-	top: 220px;
+	top: 190px;
+	left: 22px;
 	height:188px;
 	width:188px;
 }
@@ -134,6 +132,7 @@ header {
 }
 
 #details {
+   position: relative;
    padding-top: 20px;
    padding-bottom: 20px;
 }
@@ -155,7 +154,9 @@ header {
 }
 
 #details #images {
-   padding-top: 11px;
+   position: absolute;
+   left: 400px;
+   top: 20%;
 }
 
 #details #images ul {
