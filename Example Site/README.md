@@ -4,5 +4,5 @@ Example Website
 This is an example webpage. It attempts to mimic the design of a facebook
 profile. 
 
-An Example can be viewed at http://ianduffy.ie/cd
+This can be viewed at http://imduffy15.github.com/dcu-html/Example%20Site/
 
