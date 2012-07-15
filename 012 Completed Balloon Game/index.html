@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Blow it up - Can you beat the Game?</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="animation.js"></script>
+	</head>
+	
+	<body onload="startGame()">
+		<div id="header">
+			
+			<div id="titleDiv">
+					<div id="titleInner">
+						<h1>CoderDojo Balloon Game </h1>
+					</div>
+					<h1 id="canYou">Can you beat the Balloon?</h1>
+			</div>
+			<div id="stopButton">
+						<button id="stop" onclick="tieTheBalloon()">Tie It</button>
+			</div>
+			
+			<div id="scoreDiv">
+				<div id="scoreTitle" class="resultHeader">SCORE</div>
+				<div id="score" class="resultAmount">0</div>
+				<div id="livesLeftTitle" class="resultHeader">LIVES LEFT</div>
+				<div id="livesLeft" class="resultAmount">3</div>
+				
+				<button id="happy" class="nextButton" onclick="happyWithScore()">Happy</button>			
+			</div>
+			
+		</div>
+		
+		<div id="logoDiv">
+			<img src="coder.png" onclick="blow()" id ="image"/>
+		</div>
+		
+		<div id="boom">
+			BooooooooM!!
+			<br/>
+			<button id="nextLife" class="nextButton" onclick="lostLife()">Next Life</button>
+		</div>
+		
+		<div id="highScore">
+			<div id="result">
+				
+			</div>
+			<button class="nextButton" onclick="startGame()">New Game</button>			
+		</div>
+		
+		<div id="gameOver">
+			<blink>Game Over!!</blink>
+			<br/>
+			<button id="newGame" class="nextButton" onclick="startGame()">New Game</button>
+		</div>
+		
+		<blink>
+			<h2>Blow It, Blow It, Hurry Up</h2>
+		</blink>
+		<h3>Rules</h3>
+		<ul>
+			<li>Blow up the balloon by clicking on the logo</li>
+			<li>You never know when its going to blow</li>
+			<li>The balloon has a max blows of 11</li>
+			<li>You get 10 points for every successful blow</li>
+			<li>If you think the balloon is at its max, hit the tie button </li>
+			<li>If you quit too early you loose a life</li>
+			<li>If you blow too many times you loose a life</li>
+			<li>If you guess right you get extra 100 points</li>
+			<li>If you guess right your next round blows increase by 10 points</li>
+			<li>Challenge yourself and see what your highest score is</li>
+			<li>If you are happy with your highest score hit "Happy" to end the game</li>
+		</ul>
+		<h3>Are you the coderdojo balloon champion?</h3>
+	</body>
+</html>

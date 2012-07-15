@@ -1,0 +1,120 @@
+body {
+	background-color: lightgray;
+}
+
+img {
+	width: 100%;
+}
+
+div#titleDiv {
+	width: 100%;
+	float: left;
+	border-bottom: thin solid white;	
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+div#boom {
+	color: orange;
+	font-size: 150px;
+	width: 100%;
+}
+
+div#highScore {
+	color: gold;
+	font-size: 80px;
+	width: 100%;
+}
+
+div#gameOver {
+	color: red;
+	font-size: 150px;
+	width: 100%;
+}
+
+h1 {
+	color: navy;
+	width: 400px;
+	padding: 5px;
+}
+
+button.nextButton {
+	background-color: green;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	border: thin solid gray;
+	vertical-align: top;
+}
+
+h2 {
+	color: red;
+	padding: 5px;
+	border-top: thin solid white;	
+}
+
+h1#canYou {
+	text-align: right;
+	font-weight: normal;
+	width: 100%;
+}
+
+div#scoreDiv {
+	position: float;
+	width: 120px;
+	padding: 20px;
+	border: thin solid white;
+	float: right;
+	background-color: navy;
+}
+
+div.resultHeader {
+	font-size: 20px;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	color: gray;
+}
+
+div.resultAmount {
+	font-size: 60px;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+div#stopButton {
+	padding-top: 20px;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+div#titleInner {
+	float: left;
+}
+
+button#stop {
+	border: thin solid gray;
+	color: lightgray;
+	padding: 10px;
+	background-color: red;
+	font-size: 30px;
+	width: 150px;
+}
+
+h3 {
+	padding: 5px;
+	width: 95%;
+	border: thin solid white;
+	margin-left: 10px;
+	background-color: gray;
+	color: white;
+	font-size: 30px;
+}
+
+li {
+	color: navy;
+	font-size: 20px;
+}
