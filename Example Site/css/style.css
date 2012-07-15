@@ -4,15 +4,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
    display:block;
 }
 
-audio,canvas,video {
-   display:inline;
-   zoom:1;
-}
-
-figure {
-    margin: 0;
-}
-   
 /* Base */
 
 html {
@@ -34,10 +25,12 @@ body {
 }
 
 ::selection {
+   background-color: #a8d1ff;
 	text-shadow: none;
 }
 
 ::-moz-selection {
+   background-color: #a8d1ff;
 	text-shadow: none;
 }
 
@@ -74,42 +67,10 @@ a:active {
 
 /* Typography */
 
-h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
-}
 
 h2 {
     font-size: 1.5em;
     margin: 0.83em 0;
-}
-
-h3 {
-    font-size: 1.17em;
-    margin: 1em 0;
-}
-
-h4 {
-    font-size: 1em;
-    margin: 1.33em 0;
-}
-
-h5 {
-    font-size: 0.83em;
-    margin: 1.67em 0;
-}
-
-h6 {
-    font-size: 0.75em;
-    margin: 2.33em 0;
-}
-
-b,strong {
-    font-weight: bold;
-}
-
-small {
-    font-size: 75%;
 }
 
 /* Lists */
@@ -311,10 +272,6 @@ footer p {
 
 .left {
    float: left;
-}
-
-.right {
-   float: right;
 }
 
 .clearfix:before,
