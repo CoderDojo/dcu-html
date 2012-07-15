@@ -185,9 +185,7 @@ header {
 	border-top-right-radius:4px;
 	background:#DDD;
 	margin-bottom: 20px;
-	height:85px;
 	width:400px;
-	
 }
 
 #details #info p {
@@ -196,7 +194,7 @@ header {
 }
 
 #details #images {
-   padding-top: 3px;
+   padding-top: 11px;
 }
 
 #details #images ul {
