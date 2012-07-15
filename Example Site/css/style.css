@@ -132,13 +132,11 @@ header {
 }
 
 #details {
-   position: relative;
    padding-top: 20px;
    padding-bottom: 20px;
 }
 
 #details #info {
-   padding: 1px;
    padding-left: 22px;
 	-moz-border-radius-bottomright:4px;
 	-moz-border-radius-topright:4px;
@@ -150,10 +148,12 @@ header {
 	width:360px;
 }
 
+#details #info p {
+   margin: 1em 0 1em 0;
+}
+
 #details #images {
-   position: absolute;
-   left: 400px;
-   top: 20%;
+   margin-top: 1em;
 }
 
 #details #images ul {
@@ -169,7 +169,6 @@ header {
 	border-radius:3px;
 	float:left;
 	margin-left:17px;
-	margin-top:0;
 	padding:2px;
 }
 
