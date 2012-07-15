@@ -4,18 +4,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
    display:block;
 }
 
-<<<<<<< HEAD
-audio,canvas,video {
-   display:inline;
-   zoom:1;
-}
-
-figure {
-    margin: 0;
-}
-   
-=======
->>>>>>> master
 /* Base */
 
 html {
@@ -37,18 +25,12 @@ body {
 }
 
 ::selection {
-<<<<<<< HEAD
-=======
    background-color: #a8d1ff;
->>>>>>> master
 	text-shadow: none;
 }
 
 ::-moz-selection {
-<<<<<<< HEAD
-=======
    background-color: #a8d1ff;
->>>>>>> master
 	text-shadow: none;
 }
 
@@ -85,50 +67,12 @@ a:active {
 
 /* Typography */
 
-<<<<<<< HEAD
-h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
-}
-=======
->>>>>>> master
 
 h2 {
     font-size: 1.5em;
     margin: 0.83em 0;
 }
 
-<<<<<<< HEAD
-h3 {
-    font-size: 1.17em;
-    margin: 1em 0;
-}
-
-h4 {
-    font-size: 1em;
-    margin: 1.33em 0;
-}
-
-h5 {
-    font-size: 0.83em;
-    margin: 1.67em 0;
-}
-
-h6 {
-    font-size: 0.75em;
-    margin: 2.33em 0;
-}
-
-b,strong {
-    font-weight: bold;
-}
-
-small {
-    font-size: 75%;
-}
-
-=======
->>>>>>> master
 /* Lists */
 
 ol,ul {
@@ -330,13 +274,6 @@ footer p {
    float: left;
 }
 
-<<<<<<< HEAD
-.right {
-   float: right;
-}
-
-=======
->>>>>>> master
 .clearfix:before,
 .clearfix:after {
     content: "";
