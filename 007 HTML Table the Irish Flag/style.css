@@ -1,0 +1,90 @@
+body {
+	background-color: navy;
+	color: black;
+}
+
+h1 {
+	color: gray;
+}
+
+p {
+	font-size: 12px;
+	font-family: Georgia;
+}
+
+iframe {
+	border: 0;
+}
+
+div#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background-color: white;
+	padding: 20px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div.mainImage {
+	border: 2px solid black;
+	width: 200px;
+	padding: 10px;
+	margin: 20px;
+}
+
+div.smallImage {
+	width: 50px;
+}
+
+
+img.imageStyle {
+	width: 100%;
+}
+
+div.bounce {
+	margin: 20px;	
+	border: 1px solid black;
+}	
+
+table.linksTable {
+	background-color: white;
+	width: 100%;
+	border: 2px solid navy;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+
+td.leftColumn {
+	background-color: green;
+	color: green;
+}
+
+td.leftColumn:hover {
+	background-color: white;
+}
+
+td.middleColumn {
+	background-color: white;
+	color: white;
+	width: 33%;
+}
+
+td.middleColumn:hover {
+	background-color: green;
+}
+td.rightColumn {
+	background-color: orange;
+	color: orange;
+}
+
+td.rightColumn:hover {
+	background-color: white;
+}
+
+
