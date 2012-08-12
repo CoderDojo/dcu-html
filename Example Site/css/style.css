@@ -232,12 +232,14 @@ header {
 }
 
 .unit[data-side="l"] .pointer {
-	 background-image: url(../img/leftpointer.png);
-	right: -18px;
+	 background-image: url(../img/pointers.png);
+	 background-position: -10px -10px;
+ 	 right: -18px;
 }
 
 .unit[data-side="r"] .pointer {
-	 background-image: url(../img/rightpointer.png);
+	 background-image: url(../img/pointers.png);
+	 background-position: -10px -45px;
 	 left: -18px;
 }
 
@@ -247,11 +249,13 @@ margin: -1px;
 }
 
 .unit[data-side="l"] > .unitcontainer:hover .pointer {
-	background-image: url(../img/leftpointerhover.png);
+	background-image: url(../img/pointers.png);
+	background-position: -40px -10px;
 }
 
 .unit[data-side="r"] > .unitcontainer:hover .pointer {
-	background-image: url(../img/rightpointerhover.png);
+	background-image: url(../img/pointers.png);
+	background-position: -40px -45px;
 }
 
 #content .vidwrap {
